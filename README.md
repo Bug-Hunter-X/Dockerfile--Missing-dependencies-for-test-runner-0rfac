@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: neglecting to install necessary dependencies for applications that need more than a base image. The original Dockerfile attempts to run Python unit tests without installing the `unittest` module, leading to a failure. The `Dockerfile_fixed` version addresses this issue by adding the required Python packages.
